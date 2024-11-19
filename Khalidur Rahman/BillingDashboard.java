@@ -47,11 +47,11 @@ public class BillingDashboard extends JFrame {
 
             JOptionPane.showMessageDialog(this, "Select Payment Option");
 
-            // Open the PaymentOptionsFrame and pass the product list and total amount
+            
             PaymentOptionsFrame paymentOptionsFrame = new PaymentOptionsFrame(products, totalAmount);
             paymentOptionsFrame.setVisible(true);
 
-            // Close the BillingDashboard frame
+            
             dispose();
         });
         contentPanel.add(proceedToPaymentButton, BorderLayout.SOUTH);
